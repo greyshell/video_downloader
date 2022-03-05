@@ -10,7 +10,7 @@ Download course videos
 
 ```python
 └─$ python video_downloader.py -h                                                                                                                                                                                                                 130 ⨯
-usage: video_downloader.py [-h] -d DOWNLOAD_LOCATION {powerful_python,talk_python} ...
+usage: video_downloader [-h] -d DOWNLOAD_LOCATION {powerful_python,talk_python} ...
 
 download videos
 
