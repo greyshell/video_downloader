@@ -9,8 +9,8 @@ Download course videos
 5. Run the script with following details
 
 ```python
-└─$ python video_downloader.py -h                                                                                                                                                                                                                 130 ⨯
-usage: video_downloader [-h] -d DOWNLOAD_LOCATION {powerful_python,talk_python} ...
+└─$ python video_downloader -h                                                                                                                                                                                                                      2 ⨯
+usage: video_downloader [-h] -d DOWNLOAD_LOCATION {talk_python} ...
 
 download videos
 
@@ -20,8 +20,7 @@ optional arguments:
                         provide the download location
 
 courses:
-  {talk_python, packtpub}
-                        see [course] --help for more details
+  {talk_python}         see [course] --help for more details
 
 ```
 
