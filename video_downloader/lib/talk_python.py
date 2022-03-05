@@ -23,7 +23,7 @@ class TalkPython(Downloader):
         """
         headers = {'Referer': f"{self.TALKPYTHON_BASE_URL}/"}
         link_url = f"player/video/{video_id}?quality=direct&hi_dpi=True"
-        response = requests.get(f"{self.TALKPYTHON_BASE_URL}/{link_url}",
+        response = requests.get(f"{self.TALKPYTHON_BASE_URL}/{link_url}",  # nosengrep
                                 proxies=self.proxyDict,
                                 headers=headers,
                                 allow_redirects=False,
@@ -39,7 +39,7 @@ class TalkPython(Downloader):
         parse the HTML to get the download url
         """
         link_url = f"courses/details/{self.module_name}"
-        res = requests.get(f"{self.TALKPYTHON_BASE_URL}/{link_url}",
+        res = requests.get(f"{self.TALKPYTHON_BASE_URL}/{link_url}",  # nosengrep
                            proxies=self.proxyDict,
                            allow_redirects=True,
                            verify=False
