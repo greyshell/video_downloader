@@ -5,19 +5,15 @@ formatters:
 handlers:
   console:
     class: logging.StreamHandler
-    level: DEBUG
+    level: INFO
     formatter: simple
     stream: ext://sys.stdout
   file:
     class: logging.FileHandler
-    filename: videos.log
+    filename: videos_error.log
     mode: "w"
     formatter: simple
-loggers:
-  sampleLogger:
-    level: DEBUG
-    handlers: [console]
-    propagate: no
+    level: ERROR
 root:
   level: DEBUG
-  handlers: [console, file]
+  handlers: [file, console]

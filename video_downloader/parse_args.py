@@ -18,12 +18,6 @@ def get_args():
         required=True,
     )
 
-    parser.add_argument(
-        '-t',
-        '--time',
-        help='provide delay',
-    )
-
     subparsers = parser.add_subparsers(
         title='courses',
         help='see [course] --help for more details',

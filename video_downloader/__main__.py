@@ -3,7 +3,7 @@
 # author: greyshell
 
 import sys
-from lib.parse_args import get_args
+from parse_args import get_args
 from lib.talk_python import TalkPython
 from lib.packtpub import PacktPub
 
