@@ -22,5 +22,7 @@ optional arguments:
 courses:
   {talk_python}         see [course] --help for more details
 
+Example:
+python video_downloader -d /home/kali/Downloads/tmp talk_python -m hello
 ```
 
